@@ -17,6 +17,25 @@
    - Examen gratuito **ISC2 CC** (One Million Certified): cerró inscripciones el 20-may-2026.
 6. **Plan B pentesting: Fluid Attacks** (empresa colombiana). Contrata pentesters 100 % remotos, valora las habilidades por encima de los títulos, pide inglés B1 y CTFs.
 
+### 0b. Ranking: opciones seguras (empresa legítima, postulación directa) y realistas para tu nivel
+
+"Segura" significa aquí:
+- La empresa es real y la oferta está en **su propio** portal de selección (no en agregadores ni agencias).
+- La oferta acepta a alguien en Colombia o LATAM.
+- **No pide 4+ años de experiencia ni certificaciones senior.**
+
+Ordenadas por probabilidad realista, no por preferencia:
+
+| # | Opción | Por qué es segura | Por qué es realista para ti | Riesgo principal |
+|---|---|---|---|---|
+| 1 | **Fluid Attacks — Pentester** (plan B) | Empresa colombiana conocida (clientes como Bancolombia); postulación en fluidattacks.com | Dice explícitamente que no le importan los títulos; pide inglés B1 y conocimientos básicos; remoto desde cualquier lugar | Proceso con pruebas técnicas y "certificación pre-empleo" (no pude leer los detalles) |
+| 2 | **Wazuh — Detection Engineer (Threat Research)** | Empresa de software open source; oferta en wazuh.com | Pide perfil *early-career*, Sysmon y ATT&CK: es casi tu laboratorio | Pide 1–3 años de experiencia; no confirma que acepte Colombia |
+| 3 | **Intel 471 — Talent Pool** (perfil malware/CTI) | Proveedor de CTI reconocido; postulación en su BambooHR; contrata en LATAM como B2B | Convocatoria abierta: tu research público (RedLine, PipeMagic) es tu carta | Sin plazo ni vacante concreta; puede no haber respuesta |
+| 4 | Intel 471 — Cyber Threat Researcher (LATAM) | Igual que el anterior | Español requerido; el análisis de malware cuenta como ventaja | Exige experiencia en foros criminales y HUMINT que no tienes |
+| 5 | Vigilar la reapertura: Group-IB LATAM, Intel 471 Malware Analyst LATAM | Las dos ya contrataron en LATAM antes | Encaje alto si reabren | Hoy están cerradas |
+
+**Lo que descarté por inseguro o irreal** (detalle en la sección 1c): ofertas de "agregadores" que ya no existen en el portal real de la empresa; roles en Colombia que piden 6+ años (Accenture), certificaciones senior tipo CISSP (Hyland) o experiencia FedRAMP (GFT); y rebotes de intermediarios.
+
 ---
 
 ## 1. Tabla de ofertas y canales verificados
@@ -78,6 +97,28 @@ Leyenda de encaje: **Alto** = puedes postular ya con buenas opciones · **Medio*
 | Detection Engineering Weekly | Newsletter | https://detectionengineering.net | Activo (Zack Allen, Datadog). **No confirmé que tenga sección de empleos.** | Medio | Suscribirse por el contenido. |
 | ISC2 Certified in Cybersecurity gratis | Certificación | isc2.org | **Cerrado**: sin inscripciones nuevas desde el 20-may-2026 | — | Ya no aplica. |
 | Becas OEA–VIU (maestrías virtuales, 60 %) | Beca | — | Convocatoria 2026 **cerrada** (11-may a 30-jun) | Bajo | Revisar la convocatoria 2027 si te interesa una maestría. |
+
+### 1c. Búsqueda ampliada: CTI, pentesting, SOC y Colombia (7-oct-2026)
+
+Revisé, además, consultoras con sede en Colombia, firmas ofensivas LATAM, plataformas de bug bounty y fintechs. Todo se consultó en el ATS de cada empresa salvo donde se indica.
+
+| Empresa | Rol encontrado | Estado / fuente | Veredicto |
+|---|---|---|---|
+| Accenture (Bogotá) | Security Managed Services Specialist (Check Point) | Workday, publicada el 15-sep, "Remote" | **No encaja**: pide 6+ años con firewalls Check Point |
+| Kyndryl (Bogotá) | Cyber Resiliency Specialist | Workday, 6-oct, parcialmente remota | No encaja: es de backup y continuidad, no de amenazas |
+| PwC, Citi, Visa, Trend Micro, Proofpoint, Mastercard | — | Workday: 0 roles de SOC, CTI o pentest en Colombia (solo ventas, IAM u operaciones) | Nada |
+| Hyland | Cyber Security Analyst – SOC (Colombia, remoto) | Vista en Remote Rocketship. **No pude abrir su portal** (iCIMS embebido). | Encaje bajo: pide "significant experience" y CISSP, GIAC o Security+ |
+| GFT | Security Specialist (Colombia, remoto) | Vista en Remote Rocketship | No encaja: cumplimiento FedRAMP/IL4 en GCP |
+| Stefanini LATAM | Analista DLP para SURA Colombia / Cyber Security Analyst (Colombia, remoto) | Vista en un agregador; **no pude verificarla** en su portal | Medio-bajo. Además, Stefanini es *outsourcing* de TI (te asignan a un cliente), cerca de lo que querías evitar |
+| Faraday (Argentina) | Security Consultant | Zoho Recruit: **Buenos Aires, no remoto** | Descartada |
+| Onapsis (Argentina/EE. UU.) | — | Greenhouse: 5 vacantes, ninguna de seguridad en LATAM | Nada |
+| Bitso, Belvo, Addi, Cobre, dLocal, Yuno | — | Sin roles de seguridad ofensiva o CTI abiertos a Colombia remoto (solo fraude y cumplimiento) | Nada |
+| Bugcrowd | AppSec Engineer (Remote **Brazil**), Product Security (Costa Rica) | Greenhouse | Fuera de Colombia y con nivel más alto |
+| HackerOne | Triage Intake Analyst (India), Lead Triage (EE. UU.) | Ashby / búsqueda | Nada en LATAM |
+| Intigriti, YesWeHack | — | Sin portal accesible, o en Welcome to the Jungle (Francia) | No verificable |
+| Appgate, ReversingLabs, Control Risks | — | Workable bloqueado por límite de peticiones | **No verificable**. Revísalos tú en el navegador |
+
+**Conclusión honesta:** en el mercado remoto desde Colombia casi no hay vacantes de SOC, CTI o pentest para perfiles sin experiencia laboral. Las que aparecen como "Colombia remoto" en agregadores son mayoritariamente de nivel medio o senior, o de cumplimiento. Tus mejores cartas son las opciones del ranking 0b, más construir evidencia pública (sección 3), que es lo que compensa la falta de experiencia formal.
 
 ---
 
@@ -189,6 +230,18 @@ Nada de esto se envía ni se publica en tu nombre sin tu confirmación. Los paso
 - **Encaje:** en las ofertas que piden 1–3 años de experiencia, tu evidencia es de laboratorio y research propio. Preséntala así, con enlaces; no la presentes como experiencia laboral.
 - Las cifras de la sección 2b son estimaciones, no datos oficiales.
 
+## 4b. Seguridad: cómo no caer en ofertas falsas (importante en tu sector)
+
+- **Las estafas de empleo dirigidas a perfiles técnicos son reales y activas.** La campaña norcoreana "Contagious Interview" (WaterPlum) usa entrevistas técnicas falsas para que la víctima clone y ejecute un repositorio malicioso. Según un aviso conjunto citado por CSA, infectó más de 30.000 equipos entre dic-2025 y jul-2026; Microsoft publicó sobre ella en mar-2026. Tu perfil (malware/RE) también es objetivo.
+- **Reglas prácticas:**
+  1. Postula **solo desde el portal oficial** de la empresa (dominio propio o su ATS: greenhouse.io, lever.co, bamboohr.com, myworkdayjobs.com, ashbyhq.com, workable.com). Llega a él desde la web oficial de la empresa, no desde un enlace que te envíen.
+  2. Comprueba que el reclutador escriba desde un **correo del dominio de la empresa**. Desconfía de Telegram, WhatsApp, Gmail o Outlook personales.
+  3. **Nunca pagues** por capacitación, equipos, "verificación de antecedentes" o certificaciones como requisito para entrar.
+  4. **Ejecuta cualquier "prueba técnica" que traiga código o binarios solo en una VM aislada**, como haces con malware. Nunca en tu equipo personal, y sin npm, pip ni scripts sin revisar.
+  5. No des cédula, datos bancarios ni contraseñas antes de tener un contrato firmado con una entidad verificable.
+  6. Desconfía de ofertas sin entrevista, con pago desproporcionado o de "tareas" pagadas en cripto.
+  7. Las agencias de staffing (por ejemplo, Vintti) quedan fuera por tu regla. Los agregadores como Remote Rocketship sirven solo para encontrar pistas: verifica siempre en el portal real.
+
 ## 5. Fuentes principales
 
 - Group-IB Greenhouse API: https://boards-api.greenhouse.io/v1/boards/groupib/jobs · https://www.group-ib.com/careers/ · https://www.group-ib.com/careers/internship/
@@ -210,3 +263,5 @@ Nada de esto se envía ni se publica en tu nombre sin tu confirmación. Los paso
 - Exportación de servicios: https://www.gerencie.com/exencion-del-iva-en-la-exportacion-de-servicios.html
 - EOR / prestaciones: https://topsourceworldwide.com/insights/hiring-in-colombia-prestaciones-sociales-contract-types/ · https://www.deel.com/blog/employer-of-record-colombia/
 - Salarios (estimados): https://jobrise.io/es/blog/salario-cybersecurity-analyst-bogota-2026/ · https://www.hireinsouth.com/post/soc-analyst-salary
+- Búsqueda ampliada: https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bogota-Carrera-7/Security-Managed-Services-Specialist_14737774 · https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Bogota-Cundinamarca-Colombia/Cyber-Resiliency-Specialist_R-69617-1 · https://www.remoterocketship.com/publicjobs/company/hyland/jobs/cyber-security-analyst-soc-colombia-remote/ · https://www.remoterocketship.com/publicjobs/company/gft-technologies/jobs/security-specialist-colombia-remote/ · https://faradaysec.zohorecruit.com/jobs/Careers · https://jobs.ashbyhq.com/hackerone/8d1587f1-72de-49be-8867-8056a87014b3
+- Estafas de empleo: https://microsoft.com/en-us/security/blog/2026/03/11/contagious-interview-malware-delivered-through-fake-developer-job-interviews · https://labs.cloudsecurityalliance.org/research/csa-research-note-contagious-interview-waterplum-campaign-20/ · https://www.wknofm.org/show/protecting-your-money/2026-07-14/ftc-warns-job-scams-are-on-the-rise
